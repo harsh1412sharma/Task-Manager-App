@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // our backend API URL
+  baseURL: 'https://task-manager-app-3gac.onrender.com', // our backend API URL
   headers: {
     'Content-Type': 'application/json',
   },
