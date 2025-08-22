@@ -1,0 +1,36 @@
+/* General body and container styling */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f5;
+  overflow-x: hidden;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar-links .nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links .nav-link:hover {
+  color: #adb5bd;
+}
